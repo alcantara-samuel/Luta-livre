@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Stick No Bills', sans-serif;
+}
+
+
+.cenario{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    background-image: url(../img/MagicCliffs.png);
+    background-position: center;
+    background-size: cover;
+}
+h1{
+    font-size: 50px;
+    margin-bottom: 30px;
+    color: #F00;
+    text-shadow: 2px 2px #451B0B;
+}
+
+.area-luta{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    background-color: #44655F;
+    padding: 25px;
+    color: #FFF;
+    border-radius: 10px;
+    border: 2px solid #451B0B;
+}
+
+#char, #monstro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.nome{
+ font-size: 20px;
+}
+
+
+.barra-vida{
+    width: 500px;
+    height: 10px;
+    border: 1px solid #FFF;
+    border-radius: 5px;
+}
+.barra{
+    height: 7px;
+    background-color: #F00;
+    border-radius: 5px;
+}
+
+.log{
+    margin-top: 20px;
+    border: 5px dashed #B8A590;
+    height: 350px;
+    width: 400px;
+    overflow-y: scroll; /*Colocar uma barra de rolagem*/
+    text-align: center;
+    background-color: #E9D2B8;
+
+}
+button{
+    font-weight: 600;
+    padding: 1px 20px;
+    margin: 10px;
+    font-size: 20px;
+    color: #F00;
+    background-color: #FCBD80;
+    border: 1px solid #451B0B;
+    border-radius: 6px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #B8A590;
+}
+
